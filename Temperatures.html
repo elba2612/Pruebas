@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>javaScript2</title>
+</head>
+<body>
+    <h2>°Farenheit a °Celsius</h2>
+    <p id="demo"></p>
+    <script>
+        
+        function toCelcius() {
+            farenheit = parseFloat(prompt("Ingrese temperatura en °Farenheit"));
+            return (5/9) * (farenheit-32);
+        }
+        // let value = toCelcius()//
+        document.getElementById("demo").innerHTML = toCelcius()
+
+    </script>
+</body>
+</html>
